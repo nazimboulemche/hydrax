@@ -1,38 +1,119 @@
-.App {
+*{
+  font-family: "Poppins", sans-serif;
+  margin : 0px !important;
+}
+
+/* /////////// NAVBAR //////////// */ 
+
+.logo {
+  width: 150px;
+  height: 150px
+}
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  position: fixed;
+}
+
+.Navbar-infos{
+  display: flex;
+  align-content: space-around;
+  background-color: grey;
+}
+
+/* /////////// ACCEUIL //////////// */ 
+/* PART I */
+.video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: white
+}
+.h1 {
+  
+  font-size: 130px;
+  font-family: "Bebas Neue";
+}
+.h2{
+  font-size: 18px;
+  font-style: normal;
+  color: darkblue;
+}
+.h3{
+  font-size: 20px;
+  font-style: normal;
+  color: yellow;
+  font-weight: bolder;
+}
+
+/* PART II */ 
+.propos{
+  background-color:#23395b;
+  color: #fff;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about{
+  width: 100%;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.presentation h1 {
+  flex-basis: 50%;
+    text-align: left;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.presentation{
+    padding:  100px;
+    display: flex;
+    align-items: center;
+}
+.detail-pres {
+  width: 80%;
+  margin: auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.description{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.descri-icon {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  border-radius: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.descri-text p {
+  text-align: initial;
+  padding: 0 20px;
+}
+p{
+  text-align: initial;
+  padding: 0 20px;
+}
+.video-para video{
+  width: 600px;
+  margin-left: 50px;
 }
