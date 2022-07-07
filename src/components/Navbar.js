@@ -2,6 +2,7 @@ import React from "react";
 import video from "../videos/oceanHorizon.mp4";
 import logo from "../images/Logo-HYDRAX.png"
 
+
 function Navbar() {
   return (
     <>
@@ -19,7 +20,8 @@ function Navbar() {
             Hydrax crée l'étincelle et fait des eaux potables ou usées une énergie
             précieuse.
           </p>
-          <p><span>L'énergie d'avenir, c'est notre métier</span></p>
+          <p><span>L'énergie c'est l'avenir. <br />
+                   L'avenir est notre métier</span></p>
         </div>
         <div className="sidebar">
           <nav>
@@ -35,7 +37,9 @@ function Navbar() {
           <i className="fas fa-bars" />
           <i className="fas fa-times" />
         </div>
+        
       </header>
+      
     </>
   );
 }

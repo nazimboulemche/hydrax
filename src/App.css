@@ -37,6 +37,7 @@
   text-align: center;
   color: #fff; 
   padding-top: 300px;
+  align-items: center;
 }
 
 .baniere-text h1 {
@@ -93,7 +94,7 @@ nav ul li a {
 
 @media screen and (max-width: 991px) {
   .baniere-text h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
   .baniere {
     height: 100vh;
@@ -108,7 +109,7 @@ nav ul li a {
     font-size: 40px;
   }
   .baniere {
-    height:90vh;
+    height:100vh;
   }
   .logo img {
     position: relative;
@@ -364,19 +365,18 @@ nav ul li a {
 .contact {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-top: 160px;
   padding-bottom: 50px;
-  
   background-color: #90e0ef;
   position: relative;
-  padding: 50px 100px;
+  
 }
 
 .container-contact {
   max-width: 900px;
-  margin: 0px auto;
+  margin: 0px 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
